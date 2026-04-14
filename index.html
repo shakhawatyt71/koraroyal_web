@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KORA ROYAL — Premium quality apparel. Exclusive designs. Made for Bangladesh. Shop Shirts, T-Shirts and Pants with fast delivery." />
+  <title>KORA ROYAL — Premium Apparel Bangladesh</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- GTM Head Script -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MMBJVW59');
+  </script>
+</head>
+<body>
+
+  <!-- GTM noscript (body top) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMBJVW59"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+  <!-- Skip link -->
+  <a href="#kr-order-form" class="kr-skip-link">Skip to order form</a>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div id="kr-announcement" role="marquee" aria-label="Announcements">
+    <div class="kr-announce-track" id="krAnnounceTrack">
+      <span data-en="Free delivery on orders above ৳2999" data-bn="৳২৯৯৯-এর উপরে অর্ডারে ফ্রি ডেলিভারি">Free delivery on orders above ৳2999</span>
+      <span data-en="COD available all over Bangladesh" data-bn="সারা বাংলাদেশে ক্যাশ অন ডেলিভারি পাওয়া যাচ্ছে">COD available all over Bangladesh</span>
+      <span data-en="Premium quality | Exclusive designs | Fast delivery" data-bn="প্রিমিয়াম কোয়ালিটি | এক্সক্লুসিভ ডিজাইন | দ্রুত ডেলিভারি">Premium quality | Exclusive designs | Fast delivery</span>
+      <span data-en="Use code KORA10 for 10% off" data-bn="১০% ছাড়ের জন্য KORA10 কোড ব্যবহার করুন">Use code KORA10 for 10% off</span>
+      <!-- Duplicate for seamless loop -->
+      <span data-en="Free delivery on orders above ৳2999" data-bn="৳২৯৯৯-এর উপরে অর্ডারে ফ্রি ডেলিভারি">Free delivery on orders above ৳2999</span>
+      <span data-en="COD available all over Bangladesh" data-bn="সারা বাংলাদেশে ক্যাশ অন ডেলিভারি পাওয়া যাচ্ছে">COD available all over Bangladesh</span>
+      <span data-en="Premium quality | Exclusive designs | Fast delivery" data-bn="প্রিমিয়াম কোয়ালিটি | এক্সক্লুসিভ ডিজাইন | দ্রুত ডেলিভারি">Premium quality | Exclusive designs | Fast delivery</span>
+      <span data-en="Use code KORA10 for 10% off" data-bn="১০% ছাড়ের জন্য KORA10 কোড ব্যবহার করুন">Use code KORA10 for 10% off</span>
+    </div>
+    <button class="kr-announce-close" id="krAnnounceClose" aria-label="Close announcement">
+      <i data-lucide="x" style="width:14px;height:14px;"></i>
+    </button>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="kr-navbar" role="navigation" aria-label="Main navigation">
+    <div class="kr-nav-inner">
+
+      <!-- Logo -->
+      <a href="/" class="kr-nav-logo" aria-label="KORA ROYAL Home">
+        <img src="" alt="KORA ROYAL" class="kr-logo-light" id="krLogoLight" />
+        <img src="" alt="KORA ROYAL" class="kr-logo-dark" id="krLogoDark" />
+      </a>
+
+      <!-- Desktop nav links -->
+      <div class="kr-nav-links">
+        <a href="#kr-gallery" data-en="Collection" data-bn="কালেকশন">Collection</a>
+        <a href="#kr-order-form" data-en="Order" data-bn="অর্ডার">Order</a>
+        <a href="#kr-reviews" data-en="Reviews" data-bn="রিভিউ">Reviews</a>
+        <a href="#kr-faq" data-en="FAQ" data-bn="প্রশ্নোত্তর">FAQ</a>
+      </div>
+
+      <!-- Actions -->
+      <div class="kr-nav-actions">
+        <!-- Theme toggle -->
+        <button class="kr-btn-icon" id="krThemeToggle" aria-label="Toggle theme">
+          <i data-lucide="sun" class="icon-light" style="width:18px;height:18px;"></i>
+          <i data-lucide="moon" class="icon-dark" style="width:18px;height:18px;display:none;"></i>
+        </button>
+
+        <!-- Language toggle -->
+        <button class="kr-lang-toggle" id="krLangToggle" aria-label="Toggle language">EN</button>
+
+        <!-- Order CTA (desktop) -->
+        <a href="#kr-order-form" class="kr-btn-nav-order" data-en="Order Now" data-bn="অর্ডার করুন">Order Now</a>
+
+        <!-- Hamburger (mobile) -->
+        <button class="kr-hamburger" id="krHamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="kr-mobile-menu" role="menu">
+    <a href="#kr-gallery" data-en="Our Collection" data-bn="আমাদের কালেকশন">Our Collection</a>
+    <a href="#kr-order-form" data-en="Place Order" data-bn="অর্ডার দিন">Place Order</a>
+    <a href="#kr-reviews" data-en="Customer Reviews" data-bn="কাস্টমার রিভিউ">Customer Reviews</a>
+    <a href="#kr-faq" data-en="FAQ" data-bn="প্রশ্নোত্তর">FAQ</a>
+  </div>
+
+  <!-- ===== DYNAMIC ISLAND ===== -->
+  <div id="kr-island" role="alert" aria-live="polite">
+    <div class="kr-island-icon kr-island-icon--info" id="krIslandIcon">
+      <i data-lucide="bell" style="width:16px;height:16px;"></i>
+    </div>
+    <div class="kr-island-content">
+      <div class="kr-island-title" id="krIslandTitle">Welcome</div>
+      <div class="kr-island-body" id="krIslandBody">Check out our latest collection</div>
+    </div>
+  </div>
+
+  <!-- ===== MAIN ===== -->
+  <main id="main-content">
+
+    <!-- ===== HERO ===== -->
+    <section id="kr-hero" aria-label="Hero">
+      <div class="kr-hero-orbs">
+        <div class="kr-orb kr-orb--1"></div>
+        <div class="kr-orb kr-orb--2"></div>
+        <div class="kr-orb kr-orb--3"></div>
+      </div>
+
+      <div class="container" style="display:contents;">
+        <div class="kr-hero-content container" style="padding-top:0;padding-bottom:0;">
+
+          <!-- Badge -->
+          <div class="kr-hero-badge">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span data-en="New Collection 2025" data-bn="নতুন কালেকশন ২০২৫">New Collection 2025</span>
+          </div>
+
+          <!-- Title -->
+          <h1 class="kr-hero-title">
+            <span data-en="Style That" data-bn="স্টাইল যা">Style That</span><br/>
+            <span class="text-coral" data-en="Speaks For You" data-bn="আপনার কথা বলে">Speaks For You</span>
+          </h1>
+
+          <!-- Description -->
+          <p class="kr-hero-desc" data-en="Premium quality apparel crafted for Bangladesh. Exclusive designs, comfort fabric, and fast COD delivery to your doorstep." data-bn="বাংলাদেশের জন্য তৈরি প্রিমিয়াম মানের পোশাক। এক্সক্লুসিভ ডিজাইন, আরামদায়ক কাপড় এবং দ্রুত ডেলিভারি।">
+            Premium quality apparel crafted for Bangladesh. Exclusive designs, comfort fabric, and fast COD delivery to your doorstep.
+          </p>
+
+          <!-- Stats -->
+          <div class="kr-hero-stats">
+            <div class="kr-stat-item">
+              <div class="kr-stat-num" data-count="491">0</div>
+              <div class="kr-stat-label" data-en="Orders Delivered" data-bn="অর্ডার ডেলিভারি">Orders Delivered</div>
+            </div>
+            <div class="kr-stat-item">
+              <div class="kr-stat-num">4.9</div>
+              <div class="kr-stat-label" data-en="Average Rating" data-bn="গড় রেটিং">Average Rating</div>
+            </div>
+            <div class="kr-stat-item">
+              <div class="kr-stat-num" data-count="64">0</div>
+              <div class="kr-stat-label" data-en="Districts Delivered" data-bn="জেলায় ডেলিভারি">Districts Delivered</div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="kr-hero-cta">
+            <a href="#kr-order-form" class="kr-btn kr-btn--primary kr-btn--lg">
+              <i data-lucide="shopping-bag" style="width:18px;height:18px;"></i>
+              <span data-en="Order Now" data-bn="এখনই অর্ডার করুন">Order Now</span>
+            </a>
+            <a href="#kr-gallery" class="kr-btn kr-btn--outline kr-btn--lg">
+              <i data-lucide="grid-2x2" style="width:18px;height:18px;"></i>
+              <span data-en="See Collection" data-bn="কালেকশন দেখুন">See Collection</span>
+            </a>
+          </div>
+
+          <!-- Trust chips -->
+          <div class="kr-trust-chips">
+            <div class="kr-trust-chip">
+              <i data-lucide="truck" style="width:14px;height:14px;color:var(--brand-coral);"></i>
+              <span data-en="Free delivery ৳2999+" data-bn="ফ্রি ডেলিভারি ৳২৯৯৯+">Free delivery ৳2999+</span>
+            </div>
+            <div class="kr-trust-chip">
+              <i data-lucide="shield-check" style="width:14px;height:14px;color:var(--brand-coral);"></i>
+              <span data-en="100% Genuine" data-bn="১০০% আসল">100% Genuine</span>
+            </div>
+            <div class="kr-trust-chip">
+              <i data-lucide="rotate-ccw" style="width:14px;height:14px;color:var(--brand-coral);"></i>
+              <span data-en="Easy Return" data-bn="সহজ রিটার্ন">Easy Return</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="kr-hero-visual container" style="padding-top:0;padding-bottom:0;position:relative;">
+
+          <!-- Floating cards -->
+          <div class="kr-floating-card kr-floating-card--sold">
+            <div class="kr-floating-card-value" data-count="491">491+</div>
+            <div class="kr-floating-card-label" data-en="Happy Customers" data-bn="সন্তুষ্ট গ্রাহক">Happy Customers</div>
+          </div>
+          <div class="kr-floating-card kr-floating-card--rating">
+            <div class="kr-floating-card-value">4.9</div>
+            <div class="kr-floating-card-label" data-en="Customer Rating" data-bn="গ্রাহক রেটিং">Customer Rating</div>
+          </div>
+
+          <!-- Main image -->
+          <div class="kr-hero-main-img-wrap" id="krHeroMainImg" data-pid="1">
+            <img id="krHeroMainImgEl" src="" alt="Kora Signature Premium Shirt" loading="eager" />
+
+            <!-- Product detail popup -->
+            <div class="kr-hero-product-popup" id="krHeroPopup">
+              <div class="kr-hero-product-popup-name" id="krHeroPopupName">Kora Signature</div>
+              <div class="kr-hero-product-popup-price" id="krHeroPopupPrice">৳999</div>
+              <div class="kr-hero-product-popup-rating" id="krHeroPopupRating">
+                <i data-lucide="star" style="width:12px;height:12px;display:inline;"></i>
+                4.9 · 69 sold
+              </div>
+            </div>
+
+            <!-- Select this button -->
+            <button class="kr-hero-select-btn" id="krHeroSelectBtn" data-pid="1">
+              <span data-en="Select This" data-bn="এটা নিন">Select This</span>
+            </button>
+          </div>
+
+          <!-- Thumbnails -->
+          <div class="kr-hero-thumbs" id="krHeroThumbs" role="tablist">
+            <!-- Built by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY CAROUSEL ===== -->
+    <section id="kr-gallery" class="section section--alt" aria-label="Our collection">
+      <div class="container">
+        <div class="kr-gallery-header">
+          <div class="kr-section-label" data-en="Our Collection" data-bn="আমাদের কালেকশন">Our Collection</div>
+          <h2 class="kr-section-title anim-fade-up" data-en="See What We Offer" data-bn="কী পাচ্ছেন দেখুন">See What We <span>Offer</span></h2>
+          <p class="kr-section-subtitle anim-fade-up" data-en="Browse our exclusive selection of premium garments crafted for Bangladeshi fashion." data-bn="বাংলাদেশি ফ্যাশনের জন্য তৈরি আমাদের প্রিমিয়াম পোশাকের কালেকশন দেখুন।">Browse our exclusive selection of premium garments crafted for Bangladeshi fashion.</p>
+        </div>
+      </div>
+
+      <div class="kr-carousel-viewport" id="krCarouselViewport">
+        <div class="kr-carousel-track" id="krCarouselTrack">
+          <!-- Built by JS (x2 for infinite loop) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ORDER FORM ===== -->
+    <section id="kr-order-form" class="section" aria-label="Place your order">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:var(--space-10);">
+          <div class="kr-section-label" data-en="Place Your Order" data-bn="অর্ডার দিন">Place Your Order</div>
+          <h2 class="kr-section-title anim-fade-up" data-en="Order Now — Fast Delivery Guaranteed" data-bn="এখনই অর্ডার করুন — দ্রুত ডেলিভারি নিশ্চিত">Order Now — <span>Fast Delivery</span> Guaranteed</h2>
+        </div>
+
+        <div class="kr-form-layout">
+
+          <!-- LEFT — Form -->
+          <div>
+
+            <!-- ---- PRODUCT SELECTION ---- -->
+            <div class="kr-form-card" style="margin-bottom:var(--space-5);">
+              <div class="kr-form-section-title">
+                <i data-lucide="package" style="width:18px;height:18px;color:var(--brand-coral);"></i>
+                <span data-en="Select Products" data-bn="পণ্য বেছে নিন">Select Products</span>
+              </div>
+
+              <!-- Size chart trigger (global) -->
+              <div style="margin-bottom:var(--space-4);">
+                <button class="kr-sizechart-btn" id="krGlobalSizeChartBtn" onclick="window._krOpenSizeChart && window._krOpenSizeChart(1)">
+                  <i data-lucide="ruler" style="width:13px;height:13px;"></i>
+                  <span data-en="View Size Chart" data-bn="সাইজ চার্ট দেখুন">View Size Chart</span>
+                </button>
+              </div>
+
+              <div class="kr-co-list" id="krCoList">
+                <!-- Built by JS: buildCheckoutProducts() -->
+              </div>
+            </div>
+
+            <!-- ---- CUSTOMER INFO ---- -->
+            <div class="kr-form-card" style="margin-bottom:var(--space-5);">
+              <div class="kr-form-section-title">
+                <i data-lucide="user" style="width:18px;height:18px;color:var(--brand-coral);"></i>
+                <span data-en="Your Information" data-bn="আপনার তথ্য">Your Information</span>
+              </div>
+
+              <!-- Name -->
+              <div class="kr-field" id="fieldName">
+                <label class="kr-label" for="krName">
+                  <span data-en="Full Name" data-bn="পুরো নাম">Full Name</span>
+                  <span class="kr-required">*</span>
+                </label>
+                <input type="text" id="krName" class="kr-input" placeholder="e.g. Mohammad Rahman" autocomplete="name" />
+                <span class="kr-field-error" data-en="Please enter your name" data-bn="আপনার নাম লিখুন">Please enter your name</span>
+              </div>
+
+              <!-- Phone -->
+              <div class="kr-field" id="fieldPhone">
+                <label class="kr-label" for="krPhone">
+                  <span data-en="Phone Number" data-bn="ফোন নম্বর">Phone Number</span>
+                  <span class="kr-required">*</span>
+                </label>
+                <input type="tel" id="krPhone" class="kr-input" placeholder="01XXXXXXXXX" autocomplete="tel" inputmode="numeric" />
+                <span class="kr-field-error" data-en="Enter a valid BD phone number (01XXXXXXXXX)" data-bn="সঠিক বাংলাদেশি নম্বর দিন (01XXXXXXXXX)">Enter a valid BD phone number</span>
+              </div>
+
+              <!-- Email (optional) -->
+              <div class="kr-field" id="fieldEmail">
+                <label class="kr-label" for="krEmail">
+                  <span data-en="Email" data-bn="ইমেইল">Email</span>
+                  <span class="kr-optional" data-en="(optional)" data-bn="(ঐচ্ছিক)">(optional)</span>
+                </label>
+                <input type="email" id="krEmail" class="kr-input" placeholder="your@email.com" autocomplete="email" />
+              </div>
+
+              <!-- District (custom dropdown) -->
+              <div class="kr-field" id="fieldDistrict">
+                <label class="kr-label">
+                  <span data-en="District" data-bn="জেলা">District</span>
+                  <span class="kr-required">*</span>
+                </label>
+                <div class="kr-district-wrap" id="krDistrictWrap">
+                  <button type="button" class="kr-district-trigger" id="krDistrictTrigger" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="kr-district-placeholder" id="krDistrictDisplay" data-en="Select your district" data-bn="আপনার জেলা বেছে নিন">Select your district</span>
+                    <i data-lucide="chevron-down" style="width:16px;height:16px;"></i>
+                  </button>
+                  <div class="kr-district-dropdown" id="krDistrictDropdown" role="listbox">
+                    <div class="kr-district-search">
+                      <input type="text" id="krDistrictSearch" placeholder="Search district..." autocomplete="off" />
+                    </div>
+                    <div class="kr-district-list" id="krDistrictList">
+                      <!-- Built by JS -->
+                    </div>
+                  </div>
+                </div>
+                <input type="hidden" id="krDistrictVal" />
+                <span class="kr-field-error" data-en="Please select your district" data-bn="আপনার জেলা বেছে নিন">Please select your district</span>
+              </div>
+
+              <!-- Address -->
+              <div class="kr-field" id="fieldAddress">
+                <label class="kr-label" for="krAddress">
+                  <span data-en="Full Address" data-bn="সম্পূর্ণ ঠিকানা">Full Address</span>
+                  <span class="kr-required">*</span>
+                </label>
+                <textarea id="krAddress" class="kr-textarea" placeholder="House/Road, Area, City..." rows="2" autocomplete="street-address"></textarea>
+                <span class="kr-field-error" data-en="Address must be at least 10 characters" data-bn="ঠিকানা কমপক্ষে ১০ অক্ষর হতে হবে">Address must be at least 10 characters</span>
+              </div>
+
+              <!-- Order note (optional) -->
+              <div class="kr-field" id="fieldNote">
+                <label class="kr-label" for="krNote">
+                  <span data-en="Order Note" data-bn="অর্ডার নোট">Order Note</span>
+                  <span class="kr-optional" data-en="(optional)" data-bn="(ঐচ্ছিক)">(optional)</span>
+                </label>
+                <textarea id="krNote" class="kr-textarea" placeholder="Any special instructions..." rows="2"></textarea>
+              </div>
+            </div>
+
+            <!-- ---- PAYMENT METHOD ---- -->
+            <div class="kr-form-card" style="margin-bottom:var(--space-5);" id="krPaymentSection">
+              <div class="kr-form-section-title">
+                <i data-lucide="credit-card" style="width:18px;height:18px;color:var(--brand-coral);"></i>
+                <span data-en="Payment Method" data-bn="পেমেন্ট পদ্ধতি">Payment Method</span>
+              </div>
+
+              <div class="kr-payment-options">
+                <!-- COD -->
+                <div class="kr-payment-option">
+                  <input type="radio" name="krPayment" id="krPayCOD" value="COD" checked />
+                  <label class="kr-payment-label" for="krPayCOD">
+                    <i data-lucide="truck" style="width:22px;height:22px;"></i>
+                    <span data-en="Cash on Delivery" data-bn="ক্যাশ অন ডেলিভারি">Cash on Delivery</span>
+                  </label>
+                </div>
+                <!-- bKash -->
+                <div class="kr-payment-option">
+                  <input type="radio" name="krPayment" id="krPayBkash" value="bKash" />
+                  <label class="kr-payment-label" for="krPayBkash">
+                    <i data-lucide="smartphone" style="width:22px;height:22px;"></i>
+                    <span>bKash</span>
+                  </label>
+                </div>
+                <!-- Nagad -->
+                <div class="kr-payment-option">
+                  <input type="radio" name="krPayment" id="krPayNagad" value="Nagad" />
+                  <label class="kr-payment-label" for="krPayNagad">
+                    <i data-lucide="wallet" style="width:22px;height:22px;"></i>
+                    <span>Nagad</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- bKash Panel -->
+              <div class="kr-payment-panel" id="krBkashPanel">
+                <div class="kr-payment-panel-inner">
+                  <div class="kr-payment-merchant">
+                    <div>
+                      <div class="kr-payment-merchant-label" data-en="bKash Merchant Number" data-bn="বিকাশ মার্চেন্ট নম্বর">bKash Merchant Number</div>
+                      <div class="kr-payment-merchant-num">01935-158745</div>
+                    </div>
+                    <i data-lucide="copy" style="width:18px;height:18px;color:var(--text-muted);cursor:pointer;" onclick="navigator.clipboard.writeText('01935158745')"></i>
+                  </div>
+                  <div class="kr-payment-steps">
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">1</div>
+                      <span data-en='Open bKash app → "Send Money"' data-bn='বিকাশ অ্যাপ খুলুন → "সেন্ড মানি"'>Open bKash app → "Send Money"</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">2</div>
+                      <span data-en="Enter merchant number: 01935-158745" data-bn="মার্চেন্ট নম্বর দিন: ০১৯৩৫-১৫৮৭৪৫">Enter merchant number: 01935-158745</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">3</div>
+                      <span data-en="Enter advance amount and complete payment" data-bn="এডভ্যান্স পরিমাণ দিন এবং পেমেন্ট সম্পন্ন করুন">Enter advance amount and complete payment</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">4</div>
+                      <span data-en="Enter the transaction ID below" data-bn="নিচে ট্রানজেকশন আইডি দিন">Enter the transaction ID below</span>
+                    </div>
+                  </div>
+                  <div class="kr-field" id="fieldBkashAdvance">
+                    <label class="kr-label" for="krBkashAdvance">
+                      <span data-en="Advance Amount (BDT)" data-bn="এডভ্যান্স পরিমাণ (টাকা)">Advance Amount (BDT)</span>
+                    </label>
+                    <input type="number" id="krBkashAdvance" class="kr-input" placeholder="0" min="0" inputmode="numeric" />
+                  </div>
+                  <div class="kr-field" id="fieldBkashTrx">
+                    <label class="kr-label" for="krBkashTrx">
+                      <span data-en="Transaction ID" data-bn="ট্রানজেকশন আইডি">Transaction ID</span>
+                      <span class="kr-required">*</span>
+                    </label>
+                    <input type="text" id="krBkashTrx" class="kr-input" placeholder="e.g. 8N7KL3M2..." />
+                    <span class="kr-field-error" data-en="Transaction ID is required" data-bn="ট্রানজেকশন আইডি আবশ্যক">Transaction ID is required</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Nagad Panel -->
+              <div class="kr-payment-panel" id="krNagadPanel">
+                <div class="kr-payment-panel-inner">
+                  <div class="kr-payment-merchant">
+                    <div>
+                      <div class="kr-payment-merchant-label" data-en="Nagad Merchant Number" data-bn="নগদ মার্চেন্ট নম্বর">Nagad Merchant Number</div>
+                      <div class="kr-payment-merchant-num">01935-158745</div>
+                    </div>
+                    <i data-lucide="copy" style="width:18px;height:18px;color:var(--text-muted);cursor:pointer;" onclick="navigator.clipboard.writeText('01935158745')"></i>
+                  </div>
+                  <div class="kr-payment-steps">
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">1</div>
+                      <span data-en='Open Nagad app → "Send Money"' data-bn='নগদ অ্যাপ খুলুন → "সেন্ড মানি"'>Open Nagad app → "Send Money"</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">2</div>
+                      <span data-en="Enter merchant number: 01935-158745" data-bn="মার্চেন্ট নম্বর দিন: ০১৯৩৫-১৫৮৭৪৫">Enter merchant number: 01935-158745</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">3</div>
+                      <span data-en="Enter advance amount and complete payment" data-bn="এডভ্যান্স পরিমাণ দিন এবং পেমেন্ট সম্পন্ন করুন">Enter advance amount and complete payment</span>
+                    </div>
+                    <div class="kr-payment-step">
+                      <div class="kr-payment-step-num">4</div>
+                      <span data-en="Enter the transaction ID below" data-bn="নিচে ট্রানজেকশন আইডি দিন">Enter the transaction ID below</span>
+                    </div>
+                  </div>
+                  <div class="kr-field" id="fieldNagadAdvance">
+                    <label class="kr-label" for="krNagadAdvance">
+                      <span data-en="Advance Amount (BDT)" data-bn="এডভ্যান্স পরিমাণ (টাকা)">Advance Amount (BDT)</span>
+                    </label>
+                    <input type="number" id="krNagadAdvance" class="kr-input" placeholder="0" min="0" inputmode="numeric" />
+                  </div>
+                  <div class="kr-field" id="fieldNagadTrx">
+                    <label class="kr-label" for="krNagadTrx">
+                      <span data-en="Transaction ID" data-bn="ট্রানজেকশন আইডি">Transaction ID</span>
+                      <span class="kr-required">*</span>
+                    </label>
+                    <input type="text" id="krNagadTrx" class="kr-input" placeholder="e.g. NG8X3K..." />
+                    <span class="kr-field-error" data-en="Transaction ID is required" data-bn="ট্রানজেকশন আইডি আবশ্যক">Transaction ID is required</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Coupon -->
+              <div class="kr-coupon-row">
+                <div class="kr-field">
+                  <label class="kr-label" for="krCoupon">
+                    <span data-en="Coupon Code" data-bn="কুপন কোড">Coupon Code</span>
+                    <span class="kr-optional" data-en="(optional)" data-bn="(ঐচ্ছিক)">(optional)</span>
+                  </label>
+                  <input type="text" id="krCoupon" class="kr-input" placeholder="e.g. KORA10" style="text-transform:uppercase;" />
+                </div>
+                <button type="button" class="kr-btn kr-btn--outline kr-btn--sm" id="krCouponApply" style="margin-bottom:0;height:46px;align-self:flex-end;" data-en="Apply" data-bn="প্রয়োগ করুন">Apply</button>
+              </div>
+              <div class="kr-coupon-feedback" id="krCouponFeedback"></div>
+            </div>
+
+          </div><!-- /LEFT -->
+
+          <!-- RIGHT — Order Summary -->
+          <div>
+            <div class="kr-summary-card" id="krSummaryCard">
+              <div class="kr-summary-title" data-en="Order Summary" data-bn="অর্ডার সামারি">Order Summary</div>
+
+              <!-- Items list (dynamic) -->
+              <div class="kr-summary-items" id="krSummaryItems">
+                <div class="kr-summary-empty">
+                  <i data-lucide="shopping-cart" style="width:40px;height:40px;display:block;margin:0 auto var(--space-3);opacity:0.35;"></i>
+                  <span data-en="No items selected yet" data-bn="এখনো কোনো পণ্য বেছে নেননি">No items selected yet</span>
+                </div>
+              </div>
+
+              <!-- Totals (dynamic) -->
+              <div class="kr-summary-totals" id="krSummaryTotals" style="display:none;">
+                <div class="kr-summary-row">
+                  <span class="kr-summary-row-label" data-en="Subtotal" data-bn="মোট">Subtotal</span>
+                  <span class="kr-summary-row-val" id="krSumSubtotal">৳0</span>
+                </div>
+                <div class="kr-summary-row" id="krSumDiscountRow" style="display:none;">
+                  <span class="kr-summary-row-label" data-en="Discount" data-bn="ছাড়" id="krSumDiscountLabel">Discount</span>
+                  <span class="kr-summary-row-val kr-summary-row--discount" id="krSumDiscount">-৳0</span>
+                </div>
+                <div class="kr-summary-row">
+                  <span class="kr-summary-row-label" data-en="Delivery" data-bn="ডেলিভারি চার্জ">Delivery</span>
+                  <span class="kr-summary-row-val" id="krSumDelivery">৳0</span>
+                </div>
+                <div class="kr-summary-row kr-summary-row--total">
+                  <span class="kr-summary-row-label" data-en="Total Payable" data-bn="মোট পরিশোধযোগ্য">Total Payable</span>
+                  <span class="kr-summary-row-val" id="krSumTotal">৳0</span>
+                </div>
+                <div class="kr-summary-row" id="krSumAdvanceRow" style="display:none;">
+                  <span class="kr-summary-row-label" data-en="Advance Paid" data-bn="এডভ্যান্স পরিশোধিত">Advance Paid</span>
+                  <span class="kr-summary-row-val" id="krSumAdvance" style="color:var(--brand-coral);">-৳0</span>
+                </div>
+                <div class="kr-summary-row kr-summary-row--cod" id="krSumCodRow" style="display:none;">
+                  <span class="kr-summary-row-label" data-en="COD Remaining" data-bn="ক্যাশ বাকি">COD Remaining</span>
+                  <span class="kr-summary-row-val" id="krSumCod">৳0</span>
+                </div>
+              </div>
+
+              <!-- Action buttons -->
+              <div style="margin-top:var(--space-6); display:flex; flex-direction:column; gap:var(--space-3);">
+                <button type="button" id="kr-confirm-btn" class="kr-btn kr-btn--primary kr-btn--full kr-btn--lg">
+                  <i data-lucide="check-circle" style="width:18px;height:18px;"></i>
+                  <span data-en="Confirm Order" data-bn="অর্ডার নিশ্চিত করুন">Confirm Order</span>
+                </button>
+                <a href="#" id="waOrderBtn" target="_blank" rel="noopener" class="kr-btn kr-btn--wa kr-btn--full">
+                  <i data-lucide="message-circle" style="width:18px;height:18px;"></i>
+                  <span data-en="Order on WhatsApp" data-bn="হোয়াটসঅ্যাপে অর্ডার করুন">Order on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div><!-- /RIGHT -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST SECTION ===== -->
+    <section id="kr-trust" class="section section--alt" aria-label="Why choose us">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:var(--space-10);">
+          <div class="kr-section-label" data-en="Why Choose Us" data-bn="কেন আমাদের বেছে নেবেন">Why Choose Us</div>
+          <h2 class="kr-section-title anim-fade-up" data-en="KORA ROYAL Promise" data-bn="করা রয়্যাল প্রতিশ্রুতি">KORA ROYAL <span>Promise</span></h2>
+        </div>
+        <div class="kr-trust-grid">
+          <div class="kr-trust-card anim-fade-up">
+            <div class="kr-trust-icon-wrap">
+              <i data-lucide="badge-check" style="width:28px;height:28px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-trust-card-title" data-en="100% Authentic" data-bn="১০০% আসল">100% Authentic</div>
+            <div class="kr-trust-card-desc" data-en="Every product is genuine and quality-checked before dispatch. No compromises." data-bn="প্রতিটি পণ্য আসল এবং ডেলিভারির আগে মান যাচাই করা হয়।">Every product is genuine and quality-checked before dispatch. No compromises.</div>
+          </div>
+          <div class="kr-trust-card anim-fade-up">
+            <div class="kr-trust-icon-wrap">
+              <i data-lucide="truck" style="width:28px;height:28px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-trust-card-title" data-en="Fast Delivery" data-bn="দ্রুত ডেলিভারি">Fast Delivery</div>
+            <div class="kr-trust-card-desc" data-en="Delivered within 3-5 working days across Bangladesh. Free delivery on orders over ৳2999." data-bn="সারা বাংলাদেশে ৩-৫ কার্যদিবসের মধ্যে ডেলিভারি। ৳২৯৯৯-এর উপরে ফ্রি ডেলিভারি।">Delivered within 3-5 working days across Bangladesh. Free delivery on orders over ৳2999.</div>
+          </div>
+          <div class="kr-trust-card anim-fade-up">
+            <div class="kr-trust-icon-wrap">
+              <i data-lucide="rotate-ccw" style="width:28px;height:28px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-trust-card-title" data-en="Easy Returns" data-bn="সহজ রিটার্ন">Easy Returns</div>
+            <div class="kr-trust-card-desc" data-en="Not satisfied? Return within 7 days. Hassle-free process, no questions asked." data-bn="সন্তুষ্ট না হলে ৭ দিনের মধ্যে ফেরত দিন। ঝামেলামুক্ত প্রক্রিয়া।">Not satisfied? Return within 7 days. Hassle-free process, no questions asked.</div>
+          </div>
+          <div class="kr-trust-card anim-fade-up">
+            <div class="kr-trust-icon-wrap">
+              <i data-lucide="headphones" style="width:28px;height:28px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-trust-card-title" data-en="24/7 Support" data-bn="২৪/৭ সাপোর্ট">24/7 Support</div>
+            <div class="kr-trust-card-desc" data-en="We are always available on WhatsApp to help you with orders, returns, and queries." data-bn="অর্ডার, রিটার্ন এবং যেকোনো প্রশ্নের জন্য আমরা সবসময় হোয়াটসঅ্যাপে উপলব্ধ।">We are always available on WhatsApp to help you with orders, returns, and queries.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section id="kr-reviews" class="section" aria-label="Customer reviews">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:var(--space-10);">
+          <div class="kr-section-label" data-en="Customer Reviews" data-bn="কাস্টমার রিভিউ">Customer Reviews</div>
+          <h2 class="kr-section-title anim-fade-up" data-en="What Our Customers Say" data-bn="আমাদের গ্রাহকরা কী বলছেন">What Our Customers <span>Say</span></h2>
+        </div>
+        <div class="kr-reviews-grid">
+          <div class="kr-review-card anim-fade-up">
+            <div class="kr-review-stars">
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+            </div>
+            <p class="kr-review-text" data-en="The Kora Signature shirt is absolutely amazing! Premium fabric, perfect fit, and the color is exactly as shown. Will order more." data-bn="করা সিগনেচার শার্টটি অসাধারণ! প্রিমিয়াম কাপড়, নিখুঁত ফিট, এবং রং ছবির মতোই। আরো অর্ডার করব।">The Kora Signature shirt is absolutely amazing! Premium fabric, perfect fit, and the color is exactly as shown. Will order more.</p>
+            <div class="kr-review-author">
+              <div class="kr-review-avatar">R</div>
+              <div>
+                <div class="kr-review-name" data-en="Rahul Ahmed" data-bn="রাহুল আহমেদ">Rahul Ahmed</div>
+                <div class="kr-review-location" data-en="Dhaka" data-bn="ঢাকা">Dhaka</div>
+              </div>
+            </div>
+          </div>
+          <div class="kr-review-card anim-fade-up">
+            <div class="kr-review-stars">
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+            </div>
+            <p class="kr-review-text" data-en="Ordered the Kora Polo and Pants combo. Both delivered in 3 days! Quality is superb. The pant fits perfectly at size 32. Highly recommended." data-bn="করা পোলো এবং পেন্ট একসাথে অর্ডার করেছিলাম। ৩ দিনেই ডেলিভারি! কোয়ালিটি অসাধারণ। পেন্ট সাইজ ৩২-এ পার্ফেক্ট ফিট।">Ordered the Kora Polo and Pants combo. Both delivered in 3 days! Quality is superb. The pant fits perfectly at size 32. Highly recommended.</p>
+            <div class="kr-review-author">
+              <div class="kr-review-avatar">S</div>
+              <div>
+                <div class="kr-review-name" data-en="Sabbir Hossain" data-bn="সাব্বির হোসেন">Sabbir Hossain</div>
+                <div class="kr-review-location" data-en="Chattogram" data-bn="চট্টগ্রাম">Chattogram</div>
+              </div>
+            </div>
+          </div>
+          <div class="kr-review-card anim-fade-up">
+            <div class="kr-review-stars">
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+              <i data-lucide="star" style="width:16px;height:16px;fill:#FFB800;color:#FFB800;"></i>
+            </div>
+            <p class="kr-review-text" data-en="Best online shopping experience in Bangladesh. The website is smooth, ordering was easy, and the shirt arrived neatly packed. Love the brand!" data-bn="বাংলাদেশে এ পর্যন্ত সেরা অনলাইন শপিং অভিজ্ঞতা। ওয়েবসাইট স্মুথ, অর্ডার সহজ এবং শার্টটি সুন্দরভাবে প্যাক করে এসেছে।">Best online shopping experience in Bangladesh. The website is smooth, ordering was easy, and the shirt arrived neatly packed. Love the brand!</p>
+            <div class="kr-review-author">
+              <div class="kr-review-avatar">N</div>
+              <div>
+                <div class="kr-review-name" data-en="Nadia Islam" data-bn="নাদিয়া ইসলাম">Nadia Islam</div>
+                <div class="kr-review-location" data-en="Sylhet" data-bn="সিলেট">Sylhet</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="kr-faq" class="section section--alt" aria-label="FAQ">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:var(--space-10);">
+          <div class="kr-section-label" data-en="Questions" data-bn="প্রশ্নসমূহ">Questions</div>
+          <h2 class="kr-section-title anim-fade-up" data-en="Frequently Asked Questions" data-bn="প্রায়শই জিজ্ঞাসিত প্রশ্নসমূহ">Frequently <span>Asked</span> Questions</h2>
+        </div>
+        <div class="kr-faq-list" id="krFaqList">
+
+          <div class="kr-faq-item">
+            <div class="kr-faq-q" role="button" tabindex="0">
+              <span data-en="How long does delivery take?" data-bn="ডেলিভারিতে কত সময় লাগে?">How long does delivery take?</span>
+              <i data-lucide="chevron-down" class="kr-faq-chevron"></i>
+            </div>
+            <div class="kr-faq-a">
+              <div class="kr-faq-a-inner" data-en="We deliver within 3-5 working days across Bangladesh. Dhaka and nearby areas may receive delivery in 2-3 days." data-bn="সারা বাংলাদেশে ৩-৫ কার্যদিবসের মধ্যে ডেলিভারি দেওয়া হয়। ঢাকা ও আশেপাশের এলাকায় ২-৩ দিনে ডেলিভারি পেতে পারেন।">We deliver within 3-5 working days across Bangladesh. Dhaka and nearby areas may receive delivery in 2-3 days.</div>
+            </div>
+          </div>
+
+          <div class="kr-faq-item">
+            <div class="kr-faq-q" role="button" tabindex="0">
+              <span data-en="What payment methods do you accept?" data-bn="কী কী পেমেন্ট পদ্ধতি গ্রহণযোগ্য?">What payment methods do you accept?</span>
+              <i data-lucide="chevron-down" class="kr-faq-chevron"></i>
+            </div>
+            <div class="kr-faq-a">
+              <div class="kr-faq-a-inner" data-en="We accept Cash on Delivery (COD), bKash, and Nagad. For bKash and Nagad, you can pay an advance and the rest on delivery." data-bn="আমরা ক্যাশ অন ডেলিভারি (COD), বিকাশ এবং নগদ পেমেন্ট গ্রহণ করি। বিকাশ/নগদে এডভ্যান্স দিতে পারেন, বাকি ডেলিভারিতে।">We accept Cash on Delivery (COD), bKash, and Nagad. For bKash and Nagad, you can pay an advance and the rest on delivery.</div>
+            </div>
+          </div>
+
+          <div class="kr-faq-item">
+            <div class="kr-faq-q" role="button" tabindex="0">
+              <span data-en="What is your return policy?" data-bn="আপনাদের রিটার্ন পলিসি কী?">What is your return policy?</span>
+              <i data-lucide="chevron-down" class="kr-faq-chevron"></i>
+            </div>
+            <div class="kr-faq-a">
+              <div class="kr-faq-a-inner" data-en="You can return any product within 7 days of delivery if it has a manufacturing defect or is different from what was ordered. Contact us on WhatsApp to initiate a return." data-bn="ডেলিভারির ৭ দিনের মধ্যে ত্রুটিপূর্ণ বা ভুল পণ্য ফেরত দিতে পারবেন। রিটার্নের জন্য হোয়াটসঅ্যাপে যোগাযোগ করুন।">You can return any product within 7 days of delivery if it has a manufacturing defect or is different from what was ordered. Contact us on WhatsApp to initiate a return.</div>
+            </div>
+          </div>
+
+          <div class="kr-faq-item">
+            <div class="kr-faq-q" role="button" tabindex="0">
+              <span data-en="Can I order multiple products at once?" data-bn="একসাথে একাধিক পণ্য অর্ডার করা যাবে?">Can I order multiple products at once?</span>
+              <i data-lucide="chevron-down" class="kr-faq-chevron"></i>
+            </div>
+            <div class="kr-faq-a">
+              <div class="kr-faq-a-inner" data-en="Yes! You can add multiple products and even different variants of the same product (e.g. same shirt in different sizes/colors) using the Duplicate feature in the order form." data-bn="হ্যাঁ! অর্ডার ফর্মে ডুপ্লিকেট ফিচার ব্যবহার করে একই পণ্যের ভিন্ন সাইজ/কালারসহ একাধিক পণ্য অর্ডার করতে পারবেন।">Yes! You can add multiple products and even different variants of the same product using the Duplicate feature in the order form.</div>
+            </div>
+          </div>
+
+          <div class="kr-faq-item">
+            <div class="kr-faq-q" role="button" tabindex="0">
+              <span data-en="Is the fabric quality good?" data-bn="কাপড়ের মান কেমন?">Is the fabric quality good?</span>
+              <i data-lucide="chevron-down" class="kr-faq-chevron"></i>
+            </div>
+            <div class="kr-faq-a">
+              <div class="kr-faq-a-inner" data-en="All KORA ROYAL products use premium quality export-grade fabric. Our shirts and t-shirts are made from 100% combed cotton, and our pants use export-quality fabric for maximum comfort and durability." data-bn="সমস্ত করা রয়্যাল পণ্য প্রিমিয়াম এক্সপোর্ট গ্রেড কাপড় দিয়ে তৈরি। শার্ট ও টিশার্ট ১০০% কম্বড কটন দিয়ে তৈরি এবং পেন্ট এক্সপোর্ট কোয়ালিটি ফেব্রিকে।">All KORA ROYAL products use premium quality export-grade fabric. Our shirts and t-shirts are made from 100% combed cotton, and our pants use export-quality fabric for maximum comfort and durability.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== POLICIES ===== -->
+    <section id="kr-policies" class="section" aria-label="Policies">
+      <div class="container">
+        <div style="text-align:center; margin-bottom:var(--space-10);">
+          <h2 class="kr-section-title anim-fade-up" data-en="Our Policies" data-bn="আমাদের নীতিমালা">Our <span>Policies</span></h2>
+        </div>
+        <div class="kr-policies-grid">
+          <div class="kr-policy-card anim-fade-up">
+            <div class="kr-policy-card-icon">
+              <i data-lucide="rotate-ccw" style="width:22px;height:22px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-policy-card-title" data-en="Return Policy" data-bn="রিটার্ন পলিসি">Return Policy</div>
+            <p class="kr-policy-card-text" data-en="Products can be returned within 7 days of delivery for manufacturing defects or wrong items received. Items must be unworn and in original packaging. Contact us via WhatsApp to start the return process." data-bn="ডেলিভারির ৭ দিনের মধ্যে উৎপাদন ত্রুটি বা ভুল পণ্যের জন্য রিটার্ন করা যাবে। পণ্য অব্যবহৃত ও মূল প্যাকেজিংয়ে থাকতে হবে। রিটার্নের জন্য হোয়াটসঅ্যাপে যোগাযোগ করুন।">Products can be returned within 7 days of delivery for manufacturing defects or wrong items received. Items must be unworn and in original packaging. Contact us via WhatsApp to start the return process.</p>
+          </div>
+          <div class="kr-policy-card anim-fade-up">
+            <div class="kr-policy-card-icon">
+              <i data-lucide="shield" style="width:22px;height:22px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-policy-card-title" data-en="Privacy Policy" data-bn="প্রাইভেসি পলিসি">Privacy Policy</div>
+            <p class="kr-policy-card-text" data-en="Your personal information is collected solely for order processing and delivery. We do not share your data with third parties. Order data is stored securely and used only for order fulfillment and customer support." data-bn="আপনার ব্যক্তিগত তথ্য শুধুমাত্র অর্ডার প্রক্রিয়াকরণ এবং ডেলিভারির জন্য সংগ্রহ করা হয়। আমরা আপনার ডেটা তৃতীয় পক্ষের সাথে শেয়ার করি না।">Your personal information is collected solely for order processing and delivery. We do not share your data with third parties. Order data is stored securely and used only for order fulfillment and customer support.</p>
+          </div>
+          <div class="kr-policy-card anim-fade-up">
+            <div class="kr-policy-card-icon">
+              <i data-lucide="file-text" style="width:22px;height:22px;color:var(--brand-coral);"></i>
+            </div>
+            <div class="kr-policy-card-title" data-en="Terms of Service" data-bn="সেবার শর্তাবলী">Terms of Service</div>
+            <p class="kr-policy-card-text" data-en="By placing an order, you agree to our terms. Prices are in BDT and include VAT. KORA ROYAL reserves the right to cancel orders in case of product unavailability. Customer support is available via WhatsApp during business hours." data-bn="অর্ডার করার মাধ্যমে আপনি আমাদের শর্তাবলীতে সম্মত হচ্ছেন। মূল্য BDT-তে এবং ভ্যাট অন্তর্ভুক্ত। পণ্য অনুপলব্ধ হলে করা রয়্যাল অর্ডার বাতিলের অধিকার রাখে।">By placing an order, you agree to our terms. Prices are in BDT and include VAT. KORA ROYAL reserves the right to cancel orders in case of product unavailability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="kr-footer" role="contentinfo">
+    <div class="container">
+      <div class="kr-footer-grid">
+        <div>
+          <img src="" alt="KORA ROYAL" class="kr-footer-logo" id="krFooterLogo" />
+          <p class="kr-footer-tagline" data-en="Premium quality apparel. Exclusive designs. Made for Bangladesh." data-bn="প্রিমিয়াম মানের পোশাক। এক্সক্লুসিভ ডিজাইন। বাংলাদেশের জন্য তৈরি।">Premium quality apparel. Exclusive designs. Made for Bangladesh.</p>
+        </div>
+        <div>
+          <div class="kr-footer-col-title" data-en="Products" data-bn="পণ্যসমূহ">Products</div>
+          <div class="kr-footer-links">
+            <a href="#kr-order-form" data-en="Kora Signature Shirt" data-bn="করা সিগনেচার শার্ট">Kora Signature Shirt</a>
+            <a href="#kr-order-form" data-en="Kora Polo T-Shirt" data-bn="করা পোলো টিশার্ট">Kora Polo T-Shirt</a>
+            <a href="#kr-order-form" data-en="Kora Pants" data-bn="করা পেন্ট">Kora Pants</a>
+          </div>
+        </div>
+        <div>
+          <div class="kr-footer-col-title" data-en="Info" data-bn="তথ্য">Info</div>
+          <div class="kr-footer-links">
+            <a href="#kr-faq" data-en="FAQ" data-bn="প্রশ্নোত্তর">FAQ</a>
+            <a href="#kr-policies" data-en="Return Policy" data-bn="রিটার্ন পলিসি">Return Policy</a>
+            <a href="#kr-policies" data-en="Privacy Policy" data-bn="প্রাইভেসি পলিসি">Privacy Policy</a>
+          </div>
+        </div>
+        <div>
+          <div class="kr-footer-col-title" data-en="Contact" data-bn="যোগাযোগ">Contact</div>
+          <div class="kr-footer-links">
+            <a href="https://wa.me/8801935158745" target="_blank" rel="noopener">
+              <i data-lucide="message-circle" style="width:14px;height:14px;display:inline;margin-right:4px;"></i>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="kr-footer-bottom">
+        <span data-en="© 2025 KORA ROYAL. All rights reserved." data-bn="© ২০২৫ করা রয়্যাল। সর্বস্বত্ব সংরক্ষিত।">© 2025 KORA ROYAL. All rights reserved.</span>
+        <span data-en="Made in Bangladesh" data-bn="বাংলাদেশে তৈরি">Made in Bangladesh</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SIZE CHART OVERLAY ===== -->
+  <div id="sizeChartOverlay" role="dialog" aria-modal="true" aria-label="Size Chart">
+    <div class="kr-sizechart-modal">
+      <div class="kr-sizechart-header">
+        <div class="kr-sizechart-title" id="krSizeChartTitle" data-en="Size Chart" data-bn="সাইজ চার্ট">Size Chart</div>
+        <button class="kr-sizechart-close" id="krSizeChartClose" aria-label="Close size chart">
+          <i data-lucide="x" style="width:18px;height:18px;"></i>
+        </button>
+      </div>
+      <div id="krSizeChartBody">
+        <!-- Built by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FIXED BOTTOM BUTTONS ===== -->
+  <div id="kr-fixed-bottom">
+    <button class="kr-btn kr-btn--primary kr-btn--lg kr-fixed-order-now" id="krFixedOrderNow" onclick="document.getElementById('kr-order-form').scrollIntoView({behavior:'smooth'})">
+      <i data-lucide="shopping-bag" style="width:18px;height:18px;"></i>
+      <span data-en="Order Now" data-bn="অর্ডার করুন">Order Now</span>
+    </button>
+    <button class="kr-btn kr-btn--primary kr-btn--lg kr-fixed-confirm" id="krFixedConfirm" onclick="document.getElementById('kr-confirm-btn').click()">
+      <i data-lucide="check-circle" style="width:18px;height:18px;"></i>
+      <span data-en="Confirm Order" data-bn="অর্ডার নিশ্চিত করুন">Confirm Order</span>
+    </button>
+  </div>
+
+  <!-- WhatsApp support fixed -->
+  <a id="kr-wa-support-fixed" href="https://wa.me/8801935158745?text=Hi%20KORA%20ROYAL%2C%20I%20need%20help" target="_blank" rel="noopener" aria-label="WhatsApp Support">
+    <i data-lucide="message-circle" style="width:26px;height:26px;"></i>
+  </a>
+
+  <!-- Scripts (integrations BEFORE main) -->
+  <script src="js/integrations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
